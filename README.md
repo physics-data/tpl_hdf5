@@ -46,5 +46,5 @@ pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple h5py
 
 ## 提醒和注意事项
 
-1. 安装 `h5py` 后，你可以尝试运行 `h5dump data/hdf5_1.in` 查看对应的数据输入的内容，查看其它文件同理。
+1. 你可以尝试运行 `h5dump data/hdf5_1.in` 查看对应的数据输入的内容，查看其它文件同理。`h5dump` 需要通过 `sudo apt install hdf5-tools` 或者 `brew install hdf5` 安装。
 2. 你也可以不采用 `numpy` 来进行矩阵的处理，但需要自己保证输出数据中数据格式和目标一致。
