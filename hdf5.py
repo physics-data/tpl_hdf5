@@ -13,7 +13,7 @@ output_file = h5py.File(sys.argv[2], 'w')
 # TODO: access group named "/PPHappy"
 
 # TODO: access dataset named "PPMatrix"
-# HINT: you can use dataset.value to read data as numpy.array
+# HINT: you can use dataset[()] to read data as numpy.array
 
 # TODO: transpose the matrix
 # HINT: you can use numpy tranpose()
